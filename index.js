@@ -34,6 +34,8 @@ function plusThreeGuest(){
 }
 
 function newGame(){
-    homeCount.textContent = 0
-    guestCount.textContent = 0
+    countHome = 0
+    countGuest = 0
+    homeCount.textContent = countHome
+    guestCount.textContent = countGuest
 }
