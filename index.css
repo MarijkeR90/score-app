@@ -6,15 +6,26 @@ body {
 .container {
     margin: auto;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     background-color: #1B244A;
     width: 575px;
     height: 385px;
 }
 
+.board{
+    display: flex;
+    justify-content: space-around;
+}
+
 @font-face {
     font-family: Cursed;
     src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+p, h3 {
+    margin: 0;
+    padding: 0;
 }
 
 h3 {
@@ -59,4 +70,8 @@ button {
     width: 90px;
     color: white;
     background-color: #080001;
+}
+
+#new-game{
+    margin: 0 auto;
 }
